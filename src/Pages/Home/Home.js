@@ -5,7 +5,10 @@ const Home = () => {
     return (
         <div>
             <h1>Home</h1>
-            <Link to='/shoe'>Shoe</Link>
+            <ul>
+                <li><Link to='/cubes'>Cubes</Link></li>
+                <li><Link to='/shoe'>Shoe</Link></li>
+            </ul>
         </div>
     )
 }
